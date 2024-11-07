@@ -1,5 +1,5 @@
-import ItemList from "./components/itemList/ItemList";
-import { useItemsQuery } from "./hooks/quries/useItemsQuery";
+import { useItemsQuery } from "./features/item/hooks/quries/useItemsQuery";
+import ItemList from "./features/item/components/itemList/ItemList";
 
 const App = () => {
   const items = useItemsQuery();
